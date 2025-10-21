@@ -1,4 +1,4 @@
-`Site is Live at : ` (`https://iamrohitmondal.github.io/Bug-killing--Game/`)
+`Site is Live at : ` (https://iamrohitmondal.github.io/Bug-killing--Game/)
 <br><hr>
 `“Bug Blaster”` — A fast-paced reflex game where bugs swarm your screen and your mission is simple: smash them before they escape!
 <br><hr>
