@@ -227,6 +227,105 @@
             }
         }
 
+        #choose-level {
+            position: fixed;
+            width: 25em;
+            height: 25em;
+            top: 22%;
+            left: 50%;
+            z-index: 25675;
+            border: 2px solid black;
+            display: none;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            padding: 1em;
+            gap: .7em;
+            border-radius: 5%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: black;
+            animation: slide-left 1s linear 0s forwards;
+        }
+
+        @keyframes slide-left {
+
+            to {
+                left: 35%;
+            }
+        }
+
+        #choose-level span {
+            width: 100%;
+            height: 2em;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            padding: .3em;
+            border-radius: 25px;
+            color: white;
+        }
+
+        #progressive,
+        #easy,
+        #moderate,
+        #hard {
+            width: 90%;
+            height: 2em;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            padding: .3em;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        #progressive:hover,
+        #progressive:active {
+            background-color: rgb(211, 210, 210);
+            transition: transform .3s linear 0s;
+            transform: scale(.9);
+        }
+
+        #easy {
+            background-color: rgb(140, 215, 29);
+        }
+
+        #easy:hover,
+        #easy:active {
+            background-color: green;
+            transition: transform .3s linear 0s;
+            transform: scale(.9);
+        }
+
+        #moderate {
+            background-color: rgb(215, 159, 29);
+            
+        }
+
+        #moderate:hover,
+        #moderate:active {
+            background-color: rgb(172, 127, 20);
+            transition: transform .3s linear 0s;
+            transform: scale(.9);
+        }
+
+        #hard {
+            background-color: rgb(215, 29, 29);
+        }
+
+        #hard:hover,
+        #hard:active {
+            background-color: rgb(180, 7, 7);
+            transition: transform .3s linear 0s;
+            transform: scale(.9);
+        }
+
+
+
         @media only screen and (max-width:445px) {
 
             #imageofbigspider img {
@@ -256,6 +355,24 @@
                 left: 8%;
                 height: 40%;
                 width: 85%;
+            }
+
+            #choose-level {
+                width: 21em;
+                height: 23em;
+                top: 25%;
+                left: 20%;
+                animation: slide-left .5s linear 0s forwards;
+            }
+
+            @keyframes slide-left {
+
+                /* form{
+                left:-20%;
+            } */
+                to {
+                    left: 3%;
+                }
             }
 
         }
