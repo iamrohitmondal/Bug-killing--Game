@@ -91,7 +91,7 @@ easy.addEventListener("click", () => {
     clickme.addEventListener("click", () => {
 
 
-        startbug(1.5, 800, 15000);
+        startbug(1.5, 800, 1500);
 
 
     });
@@ -156,7 +156,7 @@ moderate.addEventListener("click", () => {
     clickme.addEventListener("click", () => {
 
 
-        startbug(1.5, 800, 15000);
+        startbug(1.5, 800, 1500);
 
 
     });
