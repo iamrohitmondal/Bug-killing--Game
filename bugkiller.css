@@ -54,8 +54,8 @@
         }
 
         #bugimage {
-            width: 8em;
-            height: 8em;
+            width: 12em;
+            height: 12em;
             /* translate:transform .3s linear 0s infinite;
             transform: translate(10em, 10em); */
             animation: comedown 1.5s linear 0s infinite alternate;
@@ -374,5 +374,9 @@
                     left: 3%;
                 }
             }
+             #bugimage {
+            width: 8em;
+            height: 8em;
+             }
 
         }

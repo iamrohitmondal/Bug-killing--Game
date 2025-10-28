@@ -12,6 +12,19 @@ const progressive = document.getElementById("progressive");
 const easy = document.getElementById("easy");
 const moderate = document.getElementById("moderate");
 const hard = document.getElementById("hard");
+
+bugimage.addEventListener("contextmenu", copy => {
+    copy.preventDefault();
+});
+bugimage.addEventListener("dragstart", drag => {
+    drag.preventDefault();
+});
+bugbox.addEventListener("dragstart", drag => {
+    drag.preventDefault();
+});
+legendary.addEventListener("selectstart", select => {
+    select.preventDefault();
+})
 function opacity() {
     return new Promise((resolve) => {
         Object.assign(document.getElementById("screen").style, {
